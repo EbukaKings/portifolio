@@ -36,36 +36,24 @@
 }
 
 @media screen and (max-width: 440px) {
-    .contact-form{
+    .contact-form {
         display: flex;
         flex-direction: column;
-        margin-top: 4rem;
+        margin-top: 30rem; /* Set consistent margin */
         align-items: center;
         justify-content: center;
-        height: auto;
-        /* padding-left: 0%; */
+        height: auto; /* Allow height to adjust based on content */
     }
     .c-right {
-        width: 100%; /* Full width on small screens */
-        flex: none; /* Reset flex behavior */
-        margin-left: 0; /* Remove margin */
+        width: 100%;
+        flex: none;
+        margin-left: 0;
     }
     .c-right .user {
         width: 12rem;
-        height: 2rem;
-        padding: 0.3em;
-        outline: none;
-        border: 2px solid var(--orange);
-        border-radius: 8px;
-        font-size: 16px;
-    }
-    .c-left .awesome {
-        display: flex;
-        margin-left: 0%;
-        margin-right: 70px;
     }
     .awesome {
         display: flex;
-        /* flex-direction: row; */
+        margin-top: 50%; /* Adjust as needed */
     }
 }

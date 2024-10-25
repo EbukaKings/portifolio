@@ -103,4 +103,10 @@
     .floating-div {
         
     }
+    .i-right {
+        margin-left: -50px;
+        transform: scale(0.5);
+        margin-top: -100%;
+        margin-bottom: auto;
+    }
 }

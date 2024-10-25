@@ -23,6 +23,7 @@ function Services() {
       </div>
       {/* right side */}
       <div className='cards'>
+        <divs>Projects</divs>
         {/* first card */}
         <div style={{top: "12rem", left: "-4rem"}}>
           <Card 

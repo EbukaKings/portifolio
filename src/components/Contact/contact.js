@@ -11,7 +11,7 @@ function Contact() {
         setIsLoading(true); // Start loading
 
         emailjs
-            .sendForm('service_jl9vnh7', 'template_kfnln3i', form.current, 'aKURkq7p-9UwAEFjNeGKZ')
+            .sendForm('service_0g40r3s', 'template_2qwqk5e', form.current, 'bvEcTMuAFFbaq_mwN')
             .then(
                 () => {
                     console.log('SUCCESS!');

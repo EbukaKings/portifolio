@@ -40,6 +40,10 @@
 }
 
 @media screen and (max-width: 440px) {
+    .awesome {
+        height: auto;
+        margin-top: -30px;
+    }
     .services{
         margin-top: 0;
         flex-direction: column;
