@@ -62,10 +62,10 @@
         margin-top: -50%;
     }
     .project-01 {
-        height: 130px; /* You may want to adjust this based on your content */
+        height: 160px; /* You may want to adjust this based on your content */
     }
     .project-01-image-container {
-        top: 45%; /* Center vertically */
+        top: 50%; /* Center vertically */
         left: 43%; /* Center horizontally */
         transform: translate(-50%, -50%); /* Adjust centering */
     }
@@ -90,6 +90,6 @@
         margin-right: -20px;
     }
     .projects {
-        
+
     }
 }
