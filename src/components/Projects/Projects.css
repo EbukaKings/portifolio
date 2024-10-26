@@ -1,0 +1,95 @@
+.project-grid {
+    margin-top: 20%;
+    background-color: rgb(98, 121, 118);
+    border-radius: 4px;
+}
+
+.project-01 {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(182, 161, 202);
+    border-radius: 10px;
+    position: relative;
+}
+.project-01-image-container {
+    position: absolute;
+    top: 40%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    bottom: 5%;
+    transform: translate(-50%, -50%); /* Adjust centering */
+    width: 100%; /* or specific width */
+    height: 100%; /* or specific height */
+}
+
+.e-comerce-image {
+    transform: scale(0.8);
+    position: absolute; /* Keep it absolute */
+    top: 10px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    max-width: 100%; /* Ensure it doesn’t overflow */
+}
+
+.project01-discription-grid {
+    display: flex;
+    column-gap: 50px;
+    /* row-gap: 20px; */
+}
+.project-description {
+    width: 50%;
+    margin-top: 30px;
+}
+.technologies {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-top: 20px;
+}
+.product01-name {
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 40px;
+}
+.project01-source {
+    display: flex;
+    column-gap: 20px;
+    height: 50px;
+    margin-top: 60px;
+}
+
+
+@media screen and (max-width: 440px) {
+    .projects {
+        margin-top: -50%;
+    }
+    .project-01 {
+        height: 130px; /* You may want to adjust this based on your content */
+    }
+    .project-01-image-container {
+        top: 45%; /* Center vertically */
+        left: 43%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Adjust centering */
+    }
+    .project01-discription-grid {
+        flex-direction: column;
+        width: 100%; /* Ensure it takes full width */
+    }
+    .project-description {
+        width: 100%; /* Ensure it takes full width on mobile */
+    }
+    .project-description-grid {
+        display: flex;
+        flex-direction: column; /* Change to column for mobile */
+        height: auto;
+        width: 100%; /* Ensure full width */
+    }
+    .technologies {
+        column-gap: 2px;
+        width: 100%;
+        align-items: flex-start;
+        justify-self: start;
+        margin-right: -20px;
+    }
+    .projects {
+        
+    }
+}

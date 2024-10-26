@@ -3,6 +3,7 @@ import './App.css';
 import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/contact";
+import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import { ThemeContext } from "./Context";
 import { useContext } from "react";
@@ -21,6 +22,7 @@ function App() {
     >
       <Navbar />
       <Intro />
+      <Projects />
       <Services />
       <Contact />
       <Footer />
