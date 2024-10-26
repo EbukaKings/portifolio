@@ -40,8 +40,8 @@ function Projects() {
            
         </div>
         <div className='project01-source'>
-            <div className='button G-button'><a href='https://github.com/EbukaKings/amazon-clone-project'>Github</a></div>
-            <div className='button p-button'><a href='https://amazon-clone-project-seven.vercel.app/'>Website</a></div>
+            <div className='source-button'><a className='no-underline' href='https://github.com/EbukaKings/amazon-clone-project'>Github</a></div>
+            <div className='source-button'><a className='no-underline' href='https://amazon-clone-project-seven.vercel.app/'>Website</a></div>
         </div>
       </div>
     </div>
@@ -80,8 +80,8 @@ function Projects() {
            
         </div>
         <div className='project01-source'>
-            <div className='button G-button'><a href='https://github.com/EbukaKings/javascript-game.git'>Github</a></div>
-            <div className='button p-button'><a href='https://javascript-game-sigma.vercel.app/'>Website</a></div>
+            <div className='source-button'><a className='no-underline' href='https://github.com/EbukaKings/javascript-game.git'>Github</a></div>
+            <div className='source-button'><a className='no-underline' href='https://javascript-game-sigma.vercel.app/'>Website</a></div>
         </div>
       </div>
     </div>
@@ -128,8 +128,8 @@ function Projects() {
            
         </div>
         <div className='project01-source'>
-            <div className='button G-button'><a href='https://github.com/EbukaKings/react-cart-project.git'>Github</a></div>
-            <div className='button p-button'><a href='https://react-cart-project-xi.vercel.app/'>Website</a></div>
+            <div className='source-button'><a className='no-underline' href='https://github.com/EbukaKings/react-cart-project.git'>Github</a></div>
+            <div className='source-button'><a className='no-underline' href='https://react-cart-project-xi.vercel.app/'>Website</a></div>
         </div>
       </div>
     </div>

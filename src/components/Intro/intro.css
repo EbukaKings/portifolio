@@ -106,7 +106,11 @@
     .i-right {
         margin-left: -50px;
         transform: scale(0.5);
-        margin-top: -100%;
+        margin-top: -300%;
         margin-bottom: auto;
+    }
+    .i-icons {
+        margin-top: -25px;
+        margin-left: -10px;
     }
 }
