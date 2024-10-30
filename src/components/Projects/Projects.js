@@ -3,6 +3,7 @@ import "./Projects.css";
 import ecomerce from '../../img/ecomerce-javascript.png';
 import game from '../../img/javascript game.png';
 import reactecomerce from '../../img/react-ecomerce.png';
+import youtube from '../../img/youtube-clone.png';
 
 function Projects() {
   return (
@@ -45,7 +46,42 @@ function Projects() {
         </div>
       </div>
     </div>
-
+    <div className='projects-02'>
+      <div className='project-grid'>
+        <div><p>Project</p></div>
+        <p>02</p>
+        <div className='project-1-container'></div>
+      </div>
+      <div className='project-01'>
+        <div className='project-01-image-container'>
+          <img className='e-comerce-image' src={youtube} alt="Youtube Project" />
+        </div>
+      </div>
+      <div className='project01-discription-grid'>
+        <div className='product01-name'>Youtube Project</div>
+        <div className='project-description'>
+          <div className='project-description-grid'>
+          
+          This project is a simplified clone of YouTube, designed using only HTML and CSS. It showcases the layout and basic styling of the platform, providing a static experience that mimics the look and feel of the original site.
+          </div>
+            
+            <div className='technologies'>
+            
+            <div className='button css'>
+                CSS
+            </div>
+            <div className='button html'>
+                HTML
+            </div>
+            </div>
+           
+        </div>
+        <div className='project01-source'>
+            <div className='source-button'><a className='no-underline' href='https://github.com/EbukaKings/javascript-game.git'>Github</a></div>
+            <div className='source-button'><a className='no-underline' href='https://javascript-game-sigma.vercel.app/'>Website</a></div>
+        </div>
+      </div>
+    </div>
 
     <div className='projects-02'>
       <div className='project-grid'>
@@ -80,8 +116,8 @@ function Projects() {
            
         </div>
         <div className='project01-source'>
-            <div className='source-button'><a className='no-underline' href='https://github.com/EbukaKings/javascript-game.git'>Github</a></div>
-            <div className='source-button'><a className='no-underline' href='https://javascript-game-sigma.vercel.app/'>Website</a></div>
+            <div className='source-button'><a className='no-underline' href='https://github.com/EbukaKings/Youtube-clone.git'>Github</a></div>
+            <div className='source-button'><a className='no-underline' href='https://youtube-clone-gray-xi.vercel.app/'>Website</a></div>
         </div>
       </div>
     </div>

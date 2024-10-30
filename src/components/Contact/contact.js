@@ -9,9 +9,14 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
         setIsLoading(true); // Start loading
-
+    
+        const formData = new FormData(form.current);
+        formData.forEach((value, key) => {
+            console.log(`${key}: ${value}`); // Log each field
+        });
+    
         emailjs
-            .sendForm('service_qkcjrqt', 'template_bx3j5yg', form.current, 'G-AwligwMlai2fMTB')
+            .sendForm('service_1cv0wov', 'template_j3gvjni', form.current, 'G-AwligwMlai2fMTB')
             .then(
                 () => {
                     console.log('SUCCESS!');
@@ -26,6 +31,7 @@ function Contact() {
                 setIsLoading(false); // Stop loading
             });
     };
+    
 
     return (
         <div className='contact-form'>
