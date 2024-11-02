@@ -38,6 +38,9 @@
 .cards>*{
     position: absolute;
 }
+.cards-divs {
+    /* margin-top: -10%; */
+}
 
 @media screen and (max-width: 440px) {
     .awesome {
@@ -45,21 +48,26 @@
         margin-top: -50px;
     }
     .services{
-        margin-top: 0;
+        margin-top: 30%;
+        margin-bottom: 50px;
         flex-direction: column;
+        border: red;
         gap: 5rem;
         height: auto;
         padding: 0;
-        margin-top: 0px;
+        margin-top: 15%px;
     }
     .cards {
         display: flex;
         flex-direction: column;
         gap: 17rem;
-
+        margin-top: -0%;
     }
     .cards>*{
         position: static;
+    }
+    .cards-divs {
+        margin-top: -50%;
     }
     
 }

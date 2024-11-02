@@ -3,7 +3,9 @@ import "./Services.css"
 import Card from '../Card/Card';
 import HeadEmoji from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
-
+import Css from '../../img/css logo.png'
+import Javascript from '../../img/javascript-logo.png'
+import React1 from '../../img/react-logo.png'
 
 function Services() {
   return (
@@ -23,29 +25,29 @@ function Services() {
       </div>
       {/* right side */}
       <div className='cards'>
-        <divs>Projects</divs>
+        <divs>Skills</divs>
         {/* first card */}
-        <div style={{top: "12rem", left: "-4rem"}}>
+        <div style={{top: "12rem", left: "-4rem"}} className='cards-divs'>
           <Card 
-          emoji = {HeadEmoji}
-          heading = {'Design'}
-          details = {"Figma, Sketch, Photoshop, Adobe, False 9"}
+          emoji = {Css}
+          heading = {'CSS & BOOTSTRAP'}
+          details = {"Profcient with major CSS skills use to create website in a profecional level"}
           />
         </div>
         {/* second card */}
         <div style={{left: "14rem"}}>
           <Card 
-          emoji = {HeadEmoji}
-          heading = {'Design'}
-          details = {"Html, Css-5, Javascript, React, React Nativ"}
+          emoji = {Javascript}
+          heading = {'JAVASCRIPT'}
+          details = {"Highly skilled in JavaScript, with expertise in building complex website."}
           />
         </div>
         {/* third card */}
         <div style={{top: "19rem",left: "12rem"}}>
           <Card 
-          emoji = {Humble}
-          heading = {'UI/UX'}
-          details = {"Html, Css-5, Javascript, React, React Nativ"}
+          emoji = {React1}
+          heading = {'REACT'}
+          details = {"Highly skilled in React"}
           />
         </div>
       </div>

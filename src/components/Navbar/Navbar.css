@@ -1,0 +1,120 @@
+.n-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* Add this for better positioning context */
+}
+
+.n-left {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.n-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.n-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.n-list {
+    flex: 10;
+}
+
+.n-list > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+
+.n-list > ul :hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.n-button {
+    flex: 2;
+}
+
+.hamburger-div {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    margin: 20px;
+    background-color: gray;
+    border-radius: 5px;
+    margin-left: 70px;
+    position: relative; /* Ensure context for absolute children */
+}
+
+.hamburger-line {
+    height: 4px;
+    background-color: white;
+    margin: 4px;
+    transition: 0.4s;
+}
+
+.collapse-contact {
+    transform: scale(0.3);
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+.collapse-contact img {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 60%;
+}
+.nav-bar {
+    
+    position: absolute;
+    top: 100%; /* Adjust this to position it directly below the hamburger */
+    left: 0; /* Align it to the left */
+    background-color: gray;
+    width: 100%; /* Use full width for dropdown */
+    z-index: 10; /* Ensure this is high enough */
+    height: auto; /* Adjust height as needed */
+    border-radius: 5px;
+}
+.navbar-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+
+}
+.navbar-ul li {
+    font-size: 30px;
+}
+@media screen and (max-width: 440px) {
+    .n-list {
+        display: none;
+    }
+    .n-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .hamburger-div {
+        margin-top: 40px;
+    }
+    .nav-bar {
+        top: 100%;
+        margin-top: 20px;
+        height: 400px;
+    }
+}
