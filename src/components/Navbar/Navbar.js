@@ -39,10 +39,10 @@ function Navbar() {
                     {isActive && (
                         <div className='nav-bar'>
                             <ul className='navbar-ul'>
-                            {/* <li><Link to="../../contact-info/Contactinfo.js">Home</Link></li> */}
-                                <li>About</li>
-                                <li>Works</li>
-                                <li>Contact</li>
+                                <li><Link to="/Home">Home</Link></li>
+                                <li><Link to="/About">About</Link></li>
+                                <li><Link to="/Work">Work</Link></li>
+                                <li><Link to="/contact-info">Contact Info</Link></li>
                             </ul>
                             <div className='collapse-contact'>
                                 <img src={email} alt="Email" />

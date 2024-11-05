@@ -70,7 +70,7 @@
     display: flex;
     align-items: start;
     justify-content: start;
-    gap: 20px;
+    gap: 0px;
 }
 .collapse-contact img {
     display: flex;
@@ -99,6 +99,18 @@
 .navbar-ul li {
     font-size: 30px;
 }
+.collapse-contact img {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        border-radius: 34px;
+        border: none;
+        color: white;
+        font-size: 16px;
+        background-image: linear-gradient(180deg, #d9c8a2 0%, #c2b09b 100%);
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2), 0px 10px 30px 0px rgba(251, 161, 40, 0.25);
+        transform: scale(0.4);
+}
 @media screen and (max-width: 440px) {
     .n-list {
         display: none;
@@ -116,5 +128,15 @@
         top: 100%;
         margin-top: 20px;
         height: 400px;
+        /* position: relative; */
     }
+    
+    .collapse-contact {
+        /* position: absolute; */
+        /* top: -20px; */
+    }
+    .collapse-contact img {
+        transform: scale(0.7);
+    }
+    
 }

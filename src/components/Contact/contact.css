@@ -8,13 +8,15 @@
 .c-right {
     display: flex;
     justify-content: center;
-    position: relative;
     flex: 1;
+    margin-bottom: 120px;
+    
+    
 }
 .c-right>form {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
 }
 .c-right .user {

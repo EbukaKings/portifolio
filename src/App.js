@@ -1,32 +1,48 @@
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar.js';
 import './App.css';
-import Intro from "./components/Intro/Intro";
-import Services from "./components/Services/Services";
-import Contact from "./components/Contact/contact";
-import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer/Footer";
+import Intro from "./components/Intro/Intro.js";
+import Services from "./components/Services/Services.js";
+import Contact from "./components/Contact/contact.js";
+import Projects from "./components/Projects/Projects.js";
+import Footer from "./components/Footer/Footer.js";
 import { ThemeContext } from "./Context";
 import { useContext } from "react";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Contactinfo from './components/contact-info/Contactinfo.js';
+import Home from './components/Home/Home.js';
+import About from './components/About/About.js';
 
 function App() {
   const { state } = useContext(ThemeContext);
   const darkMode = state.darkMode;
 
   return (
-    <div
-      className="App"
-      style={{
-        background: darkMode ? 'black' : 'white',
-        color: darkMode ? 'white' : 'black',
-      }}
-    >
-      <Navbar />
-      <Intro />
-      <Projects />
-      <Services />
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* Routes for the main components */}
+        <Route path="/" element={
+          <div
+            className="App"
+            style={{
+              background: darkMode ? 'black' : 'white',
+              color: darkMode ? 'white' : 'black',
+            }}
+          >
+            <Navbar />
+            <Intro />
+            <Projects />
+            <Services />
+            <Contact />
+            <Footer />
+          </div>
+        } />
+        
+        {/* Route for the Contactinfo component */}
+        <Route path="/contact-info" element={<Contactinfo />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/About" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

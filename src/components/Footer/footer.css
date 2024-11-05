@@ -14,7 +14,7 @@
     width: 100%;
     margin-top: 4rem;
     gap: 4rem;
-    color: white;
+    color: #afadad;
 }
 .f-content :nth-child(1) {
     margin-top: -2.5rem;
@@ -77,7 +77,8 @@
         margin-bottom: 50px;
     }
     .f-content {
-        margin-top: 2rem;
+        color: #afadad;
+        margin-top: -20px;
     }
     .f-content :nth-child(2) {
         margin-top: 2.5rem;
