@@ -10,20 +10,13 @@ function Contact() {
         e.preventDefault();
         setIsLoading(true); // Start loading
     
-        const formData = new FormData(form.current);
-        formData.forEach((value, key) => {
-            console.log(`${key}: ${value}`); // Log each field
-        });
-    
         emailjs
             .sendForm('service_1cv0wov', 'template_j3gvjni', form.current, 'G-AwligwMlai2fMTB')
             .then(
                 () => {
-                    console.log('SUCCESS!');
                     alert('Email sent successfully!');
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
                     alert('Failed to send email. Please try again later.');
                 }
             )
@@ -31,7 +24,6 @@ function Contact() {
                 setIsLoading(false); // Stop loading
             });
     };
-    
 
     return (
         <div className='contact-form'>
@@ -44,11 +36,11 @@ function Contact() {
             </div>
             <div className='c-right' id='c-right'>
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type='text' name='user_name' className='user' placeholder='Name' required />
-                    <input type='email' name='user_email' className='user' placeholder='Email' required />
-                    <textarea name='message' className='user' placeholder='Message' required />
-                    <input type='submit' value={isLoading ? 'Sending...' : 'Send'} className='button' disabled={isLoading} />
-                    <div className='blur c-blurl' style={{ background: 'var(--purple)' }}></div>
+                    <input type="text" name="from_name" className="user" placeholder="Name" required />
+                    <input type="email" name="to_name" className="user" placeholder="Email" required />
+                    <textarea name="message" className="user" placeholder="Message" required />
+                    <input type="submit" value={isLoading ? 'Sending...' : 'Send'} className="button" disabled={isLoading} />
+                    <div className="blur c-blurl" style={{ background: 'var(--purple)' }}></div>
                 </form>
             </div>
         </div>
