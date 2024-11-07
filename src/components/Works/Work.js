@@ -1,13 +1,22 @@
-import React from 'react';
-import "./Projects.css";
+import React from 'react'
+import "./Works.css";
+import Navbar from '../Navbar/Navbar';
+import painting from '../../img/painting.webp';
 import ecomerce from '../../img/ecomerce-javascript.png';
 import game from '../../img/javascript game.png';
 import reactecomerce from '../../img/react-ecomerce.png';
 import youtube from '../../img/youtube-clone.png';
-
-function Projects() {
+import Footer from '../Footer/Footer';
+function Works() {
   return (
-    <div>
+    <div className='myworks-container'>
+      <Navbar className='work-nav'/>
+      <div className=''>
+        <div className='painting-div'><img src={painting} /></div>
+        <div>Behold most of my projects</div>
+        <div>Take a look at my projects below and feel free to get in touch!</div>
+      </div>
+      <div>
       <div className='projects'>
       <div className='project-grid'>
         <div>Projects<p></p></div>
@@ -170,8 +179,9 @@ function Projects() {
       </div>
     </div>
     </div>
+    <Footer/>
+    </div>
     
-  );
+  )
 }
-
-export default Projects;
+export default Works;

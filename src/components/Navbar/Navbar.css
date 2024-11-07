@@ -92,13 +92,34 @@
 .navbar-ul {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     padding: 30px;
+    list-style-type: none;
+    
 
 }
 .navbar-ul li {
     font-size: 30px;
+    height: 50px;
+    
 }
+.navbar-ul li :hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 50%;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+.underline {
+    text-decoration: none;
+    color: inherit;
+}
+
 .collapse-contact img {
         display: flex;
         align-items: center;
@@ -130,13 +151,20 @@
         height: 400px;
         /* position: relative; */
     }
-    
+    .navbar-ul {
+        gap: 15px;
+    }
     .collapse-contact {
-        /* position: absolute; */
-        /* top: -20px; */
+      margin-top: -10%;
+      grid-column: 30px;
     }
     .collapse-contact img {
-        transform: scale(0.7);
+        transform: scale(2);
+       
     }
-    
+    .collapse-contact .img-link {
+        transform: scale(1);
+        display: flex;
+        gap: 40px;
+    }
 }

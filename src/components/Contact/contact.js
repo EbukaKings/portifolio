@@ -42,7 +42,7 @@ function Contact() {
                     <div className='blur s-blurl' style={{ background: 'ABF1FF94' }}></div>
                 </div>
             </div>
-            <div className='c-right'>
+            <div className='c-right' id='c-right'>
                 <form ref={form} onSubmit={sendEmail}>
                     <input type='text' name='user_name' className='user' placeholder='Name' required />
                     <input type='email' name='user_email' className='user' placeholder='Email' required />

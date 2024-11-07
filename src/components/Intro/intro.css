@@ -10,6 +10,15 @@
     gap: 2rem;
     flex-direction: column;
 }
+.i-name>:nth-child(3) {
+    /* color: var(--gray); */
+    /* font-weight: 100;
+    font-size: 14px;
+    margin-top: 10px; */
+    font-size: 1.125rem;
+    font-family: Supreme, sans-serif;
+    color: white;
+}
 .i-name {
     display: flex;
     flex-direction: column;

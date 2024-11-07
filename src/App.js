@@ -11,13 +11,15 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Contactinfo from './components/contact-info/Contactinfo.js';
 import Home from './components/Home/Home.js';
 import About from './components/About/About.js';
+import Works from './components/Works/Work.js';
+
 
 function App() {
   const { state } = useContext(ThemeContext);
   const darkMode = state.darkMode;
 
   return (
-    <BrowserRouter>
+    
       <Routes>
         {/* Routes for the main components */}
         <Route path="/" element={
@@ -40,9 +42,10 @@ function App() {
         {/* Route for the Contactinfo component */}
         <Route path="/contact-info" element={<Contactinfo />} />
         <Route path="/Home" element={<Home />} />
+        <Route path="/Works" element={<Works />} />
         <Route path="/About" element={<About />} />
       </Routes>
-    </BrowserRouter>
+    
   );
 }
 

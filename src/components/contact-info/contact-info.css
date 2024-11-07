@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+  }
+  
+  .sit-img {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 100%; /* Make sure this container stretches fully across */
+  }
+  
+  .contactinfo-div {
+    background-color: black;
+    color: white;
+    padding: 0 20px; /* Padding on sides, can be adjusted based on your design */
+    margin: 0 auto;
+    width: 100%; /* Ensure the container stretches full width */
+  }
+  
+  .sit-img img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto;
+  }
+  
+  .contact-info-discription {
+    width: 100%; /* Ensures full width */
+    margin: 20px 0; /* Space above and below */
+    padding: 0 20px; /* You can adjust this to control inner spacing */
+    box-sizing: border-box; /* Ensures padding is included in width */
+  }
+  
+  .contact-info-discription p {
+    margin: 0;
+    padding: 10px 0; /* Adds space between paragraphs */
+  }
+  
+  div p {
+    padding: 5px 0; /* Adds space between each contact info item */
+  }
+  
+  @media screen and (max-width: 440px) {
+    .sit-img {
+      margin-top: 60px;
+    }
+    
+    .contact-info-discription {
+      width: 100%; /* Ensures full width */
+      font-size: 1.125rem; /* Adjust font size on smaller screens */
+      padding: 0 10px; /* Reduce padding if needed for smaller screens */
+    }
+  
+    .text-lg, .text-xl {
+      line-height: 1.75rem;
+    }
+  
+    .text-lg {
+      font-size: 1.125rem;
+    }
+  
+    .my-4 {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    .my-contacts-info-div {
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+  }
+  

@@ -19,7 +19,7 @@ function Services() {
           modern web. Currently living in Nigeria.
         </span>
         <a href="https://drive.google.com/uc?id=1qlkkYKy1jxiHsI4ZhLZPRySnh_ly9Igr&export=download">
-    <button className="button s-button">Download CV</button>
+    <button className="button s-button">Get My CV</button>
 </a>
         <div className='blur s-blur' style={{ background: "#ABF1FF94" }}></div>
       </div>

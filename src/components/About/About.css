@@ -1,10 +1,36 @@
 .contact-info-discription {
     width: 50%;
 }
+.img-container-abt {
+    transform: scale(0.8);
+    margin-right: 30%;
+}
+.contact-info-discription {
+    /* background-color: black; */
+    color: white;
+    padding: 0 20px; /* Padding on sides, can be adjusted based on your design */
+    margin: 0 auto;
+    /* Ensure the container stretches full width */
+  }
 .about-container {
     background-color: black;
     color: white;
-    padding-left: 30px;
-    padding-right: 10px;
+    padding: 0 20px; /* Padding on sides, can be adjusted based on your design */
+    margin: 0 auto;
+    width: 100%; 
+}
+.text-lg, .text-xl {
+    line-height: 1.75rem;
+}
+.text-lg {
+    font-size: 1.125rem;
+    font-family: Supreme, sans-serif;
+    color: white;
     
+}
+.footer-about {
+    margin-top: 50px;
+}
+.stacks-container {
+   margin-bottom: 150px;
 }

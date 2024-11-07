@@ -39,15 +39,16 @@ function Navbar() {
                     {isActive && (
                         <div className='nav-bar'>
                             <ul className='navbar-ul'>
-                                <li><Link to="/Home">Home</Link></li>
-                                <li><Link to="/About">About</Link></li>
-                                <li><Link to="/Work">Work</Link></li>
-                                <li><Link to="/contact-info">Contact Info</Link></li>
+                                <li><Link className='underline' to="/Home">Home</Link></li>
+                                <li><Link className='underline' to="/About">About</Link></li>
+                                <li><Link className='underline' to="/Works">Works</Link></li>
+                                <li><Link className='underline' to="/contact-info">Contact Info</Link></li>
+                                
                             </ul>
                             <div className='collapse-contact'>
-                                <img src={email} alt="Email" />
-                                <img src={github} alt="GitHub" />
-                                <img src={linkdin} alt="LinkedIn" />
+                                <a className='img-link'><img src={email} alt="Email" /></a>
+                                <a className='img-link'><img src={github} alt="GitHub" /></a>
+                                <a className='img-link'><img src={linkdin} alt="LinkedIn" /></a>
                             </div>
                         </div>
                     )}
