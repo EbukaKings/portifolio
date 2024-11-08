@@ -1,17 +1,37 @@
 .myworks-container {
-    background-color: black;
     color: white;
-    padding: 0 20px; /*Padding on sides, can be adjusted based on your design */
-    margin: 0 auto;
-    width: 100%;
-    
+    padding-left: 20px;
+    padding-right: 10px;
 }
-.work-nav {
-    position: fixed;
-}
-.painting-div img {
+.painting-div {
     transform: scale(0.5);
-   margin-left: -15%;
-   margin-top: -10%;
-    
+    margin-top: -10%;
+    margin-left: -35%;
+}
+.project-dis-div {
+    margin-top: -10%;
+}
+.pro-work-div {
+    margin-top: -10%;
+}
+@media screen and (max-width: 440px) {
+   .painting-div {
+    transform: scale(0.4);
+    margin-top: -40%;
+    margin-left: -45%;
+   }
+   .painting-div {
+    transform: scale(0.5);
+    margin-top: -50%;
+    margin-left: -65%;
+}
+.project-dis-div {
+    margin-top: 60%;
+    margin-bottom: 40%;
+}
+.pro-work-div {
+    margin-top: 60%;
+    margin-bottom: 40%;
+}
+
 }

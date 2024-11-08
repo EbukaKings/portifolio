@@ -7,15 +7,18 @@ import game from '../../img/javascript game.png';
 import reactecomerce from '../../img/react-ecomerce.png';
 import youtube from '../../img/youtube-clone.png';
 import Footer from '../Footer/Footer';
+import Projects from '../Projects/Projects.js';
 function Works() {
   return (
     <div className='myworks-container'>
-      <Navbar className='work-nav'/>
-      <div className=''>
-        <div className='painting-div'><img src={painting} /></div>
+      <Navbar />
+      <div className='painting-div'><img src={painting} /></div>
+      <div className='project-dis-div'>
         <div>Behold most of my projects</div>
         <div>Take a look at my projects below and feel free to get in touch!</div>
       </div>
+      <div className='pro-work-div'>
+      
       <div>
       <div className='projects'>
       <div className='project-grid'>
@@ -177,6 +180,7 @@ function Works() {
             <div className='source-button'><a className='no-underline' href='https://react-cart-project-xi.vercel.app/'>Website</a></div>
         </div>
       </div>
+    </div>
     </div>
     </div>
     <Footer/>
