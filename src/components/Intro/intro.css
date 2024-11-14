@@ -19,6 +19,10 @@
     font-family: Supreme, sans-serif;
     color: white;
 }
+.i-name span:nth-child(3) {
+    font-size: 1.2rem; /* Adjust the size as needed */
+  }
+  
 .i-name {
     display: flex;
     flex-direction: column;
