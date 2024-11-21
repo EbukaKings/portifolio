@@ -10,8 +10,7 @@
 .about-container {
     background-color: black;
     color: white;
-    /* padding: 0 20px; /* Padding on sides, can be adjusted based on your design */
-    /* margin: 0 auto; */ 
+    width: 100%;
     /* width: 100%;  */
 }
 

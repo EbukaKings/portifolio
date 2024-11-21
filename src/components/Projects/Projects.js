@@ -4,6 +4,7 @@ import ecomerce from '../../img/ecomerce-javascript.png';
 import game from '../../img/javascript game.png';
 import reactecomerce from '../../img/react-ecomerce.png';
 import youtube from '../../img/youtube-clone.png';
+import bootstrap from '../../img/bootstrap-project-img.png';
 
 function Projects() {
   return (
@@ -166,6 +167,44 @@ function Projects() {
         <div className='project01-source'>
             <div className='source-button'><a className='no-underline' href='https://github.com/EbukaKings/react-cart-project.git'>Github</a></div>
             <div className='source-button'><a className='no-underline' href='https://react-cart-project-xi.vercel.app/'>Website</a></div>
+        </div>
+      </div>
+    </div>
+    <div className='projects-04'>
+      <div className='project-grid'>
+        <div><p>Project</p></div>
+        <p>04</p>
+        <div className='project-1-container'></div>
+      </div>
+      <div className='project-01'>
+        <div className='project-01-image-container'>
+          <img className='e-comerce-image' src={bootstrap} alt="bootstrap Project" />
+        </div>
+      </div>
+      <div className='project01-discription-grid'>
+        <div className='product01-name'>BOOTSTRAP - PROJECT</div>
+        <div className='project-description'>
+          <div className='project-description-grid'>
+          
+          This project demonstrates my ability to design and develop a fully responsive, mobile-first website using the popular Bootstrap framework. The website adapts seamlessly across different screen sizes and devices, ensuring an optimal viewing experience for users.
+          </div>
+            
+            <div className='technologies'>
+            <div className='button javascript'>
+                BOOTSTRAP
+            </div>
+            <div className='button css'>
+                CSS
+            </div>
+            <div className='button html'>
+                HTML
+            </div>
+            </div>
+           
+        </div>
+        <div className='project01-source'>
+            <div className='source-button'><a className='no-underline' href='https://github.com/EbukaKings/bootstrap-project.git'>Github</a></div>
+            <div className='source-button'><a className='no-underline' href='https://bootsrap-project-nine.vercel.app/'>Website</a></div>
         </div>
       </div>
     </div>
