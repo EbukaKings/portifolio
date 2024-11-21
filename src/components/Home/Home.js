@@ -8,7 +8,7 @@ import Footer from '../Footer/Footer.js';
 import { ThemeContext } from '../../Context.js';
 import { useContext } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import Accordian from '../Accordian/Accordian.js';
 
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
             <Navbar />
             <Intro />
             <Projects />
+            <Accordian />
             <Services />
             <Contact />
             <Footer />

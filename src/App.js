@@ -12,6 +12,10 @@ import Contactinfo from './components/contact-info/Contactinfo.js';
 import Home from './components/Home/Home.js';
 import About from './components/About/About.js';
 import Works from './components/Works/Work.js';
+import Accordian from './components/Accordian/Accordian.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 
 function App() {
@@ -33,6 +37,7 @@ function App() {
             <Navbar />
             <Intro />
             <Projects />
+            <Accordian />
             <Services />
             <Contact />
             <Footer />

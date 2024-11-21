@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { ThemeProvider } from './Context';
 import { BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';  // Make sure to import this for the collapse and other JS features
 
 ReactDOM.render(
   <BrowserRouter> {/* Only one BrowserRouter */}
