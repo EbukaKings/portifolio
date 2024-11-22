@@ -9,6 +9,7 @@
     flex: 1;
     gap: 2rem;
     flex-direction: column;
+    margin-top: -5%;
 }
 .i-name>:nth-child(3) {
     /* color: var(--gray); */
@@ -26,6 +27,7 @@
 .i-name {
     display: flex;
     flex-direction: column;
+   
 }
 .i-name>:nth-child(1) {
     color: var(--black);
@@ -83,7 +85,7 @@
     top: -4rem;
 }
 .i-right>:nth-child(3) {
-    transform: scale(0.5);
+    transform: scale(0.3);
     left: -20%;
     top: -20%;
     
@@ -101,14 +103,22 @@
     left: 56%;
 }
 @media screen and (max-width: 440px) {
+    .i-name  {
+        margin-top: -10%;
+    }
     .intro {
         flex-direction: column;
         height: 64rem;
         gap: 7rem;
     }
+    .hire-button {
+        margin-bottom: 20px;
+        margin-top: -40px;
+    }
     .i-right {
         transform: scale(0.8);
         left: -3rem;
+        margin-top: 20px;
     }
     .i-right .blur{
         display: none;
@@ -116,6 +126,7 @@
     .floating-div {
         
     }
+    
     .i-right {
         margin-left: -50px;
         transform: scale(0.5);

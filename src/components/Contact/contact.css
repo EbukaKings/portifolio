@@ -42,7 +42,7 @@
     .contact-form {
         display: flex;
         flex-direction: column;
-        margin-top: 30rem; /* Set consistent margin */
+        margin-top: 2rem; /* Set consistent margin */
         align-items: center;
         justify-content: center;
         height: auto; /* Allow height to adjust based on content */

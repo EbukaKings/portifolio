@@ -23,7 +23,7 @@ function Intro() {
                 <span>Kings</span>
                 <span>A self-taught frontend developer with a solid foundation in web design and development, dedicated to producing high-quality work and continuously expanding knowledge in the field.</span>
             </div>
-            <a href='#c-right'><button className='button i-button'>Hire me</button></a>           
+            <a href='#c-right'><button className='button i-button hire-button'>Hire me</button></a>           
             <div className='i-icons'>
                 <img src={Github} alt='' />
                 

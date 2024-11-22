@@ -3,7 +3,7 @@
     display: flex;
     height: 90vh;
     margin-bottom: 8rem;
-    margin-top: 27%;
+    margin-top: 5%;
 
 }
 .awesome{
@@ -55,12 +55,12 @@
         gap: 5rem;
         height: auto;
         padding: 0;
-        margin-top: 15%px;
+        margin-top: -20%;
     }
     .cards {
         display: flex;
         flex-direction: column;
-        gap: 17rem;
+        gap: 5rem;
         margin-top: -0%;
     }
     .cards>*{
