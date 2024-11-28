@@ -6,7 +6,7 @@ function Accordian() {
     <div>
       <section id="questions" className="p-5">
         <div className="container">
-          <h2 className="text-center mb-4">Frequently Asked Questions</h2>
+          <h2 className="text-center mb-4">Some Things You May Want To Know</h2>
           <div className="accordion accordion-flush" id="questions">
             {/* Item 1 */}
             <div className="accordion-item">

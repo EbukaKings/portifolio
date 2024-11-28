@@ -17,7 +17,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-
 function App() {
   const { state } = useContext(ThemeContext);
   const darkMode = state.darkMode;
